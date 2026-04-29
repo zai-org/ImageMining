@@ -98,12 +98,14 @@ Top sub-categories include: Place (36), Others (36), Complex Posters and Drawing
 ```
 ImageMining/
 ├── data.jsonl          # Main dataset (217 entries)
-├── images/             # Associated images (217 files)
+├── images/             # Associated images (217 files, need to be downloaded separately)
 │   ├── 1.png
 │   ├── 2.jpg
 │   └── ...
 └── README.md
 ```
+
+**Download Images:** The associated images can be downloaded from [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/455836e3b2b24739a9de/?dl=1). After downloading, please extract the files into the `images/` directory.
 
 ## Key Design Principles
 

@@ -1,5 +1,13 @@
 # ImageMining: A Vision-Centric Deep Search Benchmark
 
+Hugging Face dataset: https://huggingface.co/datasets/zai-org/ImageMining
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("zai-org/ImageMining")
+```
+
 ImageMining is a benchmark designed to evaluate multimodal agents on their ability to integrate high-density visual understanding with autonomous deep search. Unlike traditional VQA tasks, ImageMining requires models to actively mine visual inputs through agentic behaviors — multi-step tool calls such as localized cropping, magnification of minute details, and cross-referencing visual inputs to refine search queries.
 
 ## Overview
